@@ -59,7 +59,7 @@ class ModelSample extends React.Component {
       <View>
         <Pano source={{ uri: [ '../static_assets/space_right1.png', '../static_assets/space_left2.png', '../static_assets/space_top3.png', '../static_assets/space_bottom4.png', '../static_assets/space_front5.png', '../static_assets/space_back6.png' ] }} />
         <PointLight style={{color: 'white', transform: [{translate: [0, 400, 700]}]}} />
-        <AmbientLight intensity={2.6} />
+        <AmbientLight intensity={0.6} />
         <Model style={{ transform: [ {translate: [ -25, 0, -70]}, {scale: 0.05}, {rotateY: this.state.rotation}, {rotateX: 20}, {rotateZ: -10} ] }} source={{ obj: asset('earth/earth.obj'), mtl: asset('earth/earth.mtl') }} lit={true} />
         <Model style={{ transform: [ {translate: [ 10, 10, -100]}, {scale: 0.05}, {rotateY: this.state.rotation / 5} ] }} source={{ obj: asset('moon/moon.obj'), mtl: asset('moon/moon.mtl') }} lit={true} />
         <View style={this.styles.menu}>
