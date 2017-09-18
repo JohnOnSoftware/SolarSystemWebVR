@@ -1,7 +1,4 @@
-Simple Sample for Ironman Viewer
-
-The sample show the ability to quick create a WebVR app with 360 panorama image, model, animation and also
-the VR UI.
+Solar System Sample
 
 To setup the project locally:
 1. npm install 
@@ -10,7 +7,11 @@ To setup the project locally:
 
 Open your browser at http://localhost:3000/ you will see the result.
 
-The live demo is at https://ironmanviewer.herokuapp.com/ 
+This sample is trying to create a Solar system, and it get the idea and mainly
+referenced from the good article at https://www.pluralsight.com/guides/front-end-javascript/getting-started-with-react-vr. 
+
+
+The live demo is at https://solarsystem.herokuapp.com/ 
 
 Zhong Wu
 MIT
