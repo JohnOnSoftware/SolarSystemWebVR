@@ -10,7 +10,7 @@ To setup the project locally:
 
 Open your browser at http://localhost:3000/ you will see the result.
 
-The live demo is at https://solarvr.herokuapp.com/ 
+The live demo is at https://ironmanviewer.herokuapp.com/ 
 
 Zhong Wu
 MIT
