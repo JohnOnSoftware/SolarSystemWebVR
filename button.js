@@ -1,5 +1,3 @@
-// 'use strict'
-
 import React from 'react'
 import { View, Text, VrButton, StyleSheet } from 'react-vr'
 
